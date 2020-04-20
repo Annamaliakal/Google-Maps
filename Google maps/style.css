@@ -75,8 +75,6 @@ outline: none;
     margin-top: 30px;
 }
 
-
-
 .store-phone-no{
     color: #B5ADAD;
     margin-top: 15px;
@@ -84,12 +82,7 @@ outline: none;
 
 }
 
-
-
-
 .store-no{
-    
-
     width: 30px;
     height: 30px;
     display: flex;
@@ -105,7 +98,6 @@ outline: none;
 }
 
 .store-contain-bg{
-  
     margin-top: 12px;
     margin-bottom: 12px;
     border-radius: 18px;
