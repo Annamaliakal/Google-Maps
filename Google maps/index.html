@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google Maps Store Locator</title>
+        <script src="https://kit.fontawesome.com/c939d0e917.js"></script>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+<div class="title">Locator</div>
+<div class="search-container">
+    <div class="search">
+        <input id="zip-code-input" type="text" placeholder="Enter Zip">
+        <i class= "fas fa-search" onclick="searchStores()"></i>
+    </div>
+</div>
+<div class="store-list-contain">
+    <div class="stores-list">
+        <div class="store-contain">
+            <div class="store-contain-bg">
+                <div class="store-info-contain"> 
+                <div class="store-address">
+                        <span>7257 W Sunset Blvd</span>
+                        <span>Los Angeles, CA 90046</span>
+                </div>
+                <div class="store-phone-no">323-512-8382</div></div>
+            <div class="store-no-container">
+                <div class="store-no">1</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+   <div id = "map"></div>
+        <script src="store-data.js"></script>
+        <script src="index.js"></script>
+            <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpRB2prWm6HD8nR6geLuER6dZ34np5zjQ&callback=initMap">
+            </script>
+
+
+    </body>
+</html>
