@@ -1,18 +1,7 @@
-
-
-
-
-
-
-
 var map;
 var markers = [];
 var infoWindow;
 var locationSelect;
-
-
-
-
 
 
 function initMap() {
@@ -66,12 +55,6 @@ function setOnClickListener(){
   })
  
 }
-
-
-
-
-
-
 
 function showStoreMarkers(stores){
     var bounds = new google.maps.LatLngBounds();
